@@ -1,8 +1,7 @@
-
 Play! 2.0 Framework Tutorial - Akka-Chat-Java
 ==================================
 
-월간) 2013월 마이크로소프트 2월호 : Play! 2.0 프레임워크 - 비동기 Chat 예제 (Java)
+월간) 2013월 마이크로소프트 2월호 : Play! 2.0 프레임워크 - 비동기 Akka-Chat (Java)
 ---------------------------
 
 ### 투토리얼 레벨
@@ -27,6 +26,13 @@ Tutorial : 비동기 Chat 예제 (Java)
 1. 채팅방에 JOIN 한다. 
 2. SAY 명령으로 채팅방에 있는 모든 사람에게 말을 한다. 
 3. 브라우져를 닫으면 채팅방을 QUIT 한다. 
+
+기존에 Scala로 구현되어 있는 것을 Java버전으로 구현하였다.
+http://www.playframework.org/documentation/2.0.4/JavaComet 의 기능을 좀더 활용해 보기 위해서 
+Akka-Chat-Java 를 만들었다.
+Comet의 강력한 Iframe technique맛 보는 좋은 경험이 된다. 
+기존 akka-chat-scala 소스 위치 : https://github.com/playframework/Play20/tree/master/samples/workinprogress/akka-chat 
+
 
 ### 개발 관련 커뮤니티
 1. Play! 프레임워크 페이스북 그룹 https://www.facebook.com/groups/playframework/
